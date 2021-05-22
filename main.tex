@@ -1,0 +1,284 @@
+%-------------------------
+% Resume in Latex
+% Author : Ayush Shah
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{amssymb}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Ayush Shah} \\ \vspace{1pt}
+    B.E. - Information Technology - PICT, Pune \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 9860699500 ~ \href{mailto:shahayush2507@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{shahayush2507@gmail.com}} ~ 
+    \href{https://linkedin.com/in/omega07}{\raisebox{-0.2\height}\faLinkedin\ \underline{}}
+    \href{https://github.com/omega07}{\raisebox{-0.2\height}\faGithub\ \underline{}}
+    \href{https://twitter.com/shahayush2507}{\raisebox{-0.2\height}\faTwitter\ \underline{}}
+    \href{https://omega07.github.io/Portfolio/}{\raisebox{-0.2\height}\faGlobe\underline{ayushshah.com}} ~ 
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+
+\begin{tabular}{ |p{4cm}|p{8.2cm}|p{4cm}|p{3.1cm}|  }
+
+ \hline
+ \hfil \textbf{Degree/Certificate} & \hfil \textbf{Institute/Board} & \hfil \textbf{CGPA/Percentage} & \hfil \textbf{Year}\\
+ \hline
+ \hfil {\footnotesize Bachelor of Engineering} & \hfil {\footnotesize Pune Institute of Computer Technology, Pune} & \hfil {\footnotesize 9.0 (Current)}& \hfil {\footnotesize 2018 - Present}\\
+ \hfil {\footnotesize Senior Secondary} & \hfil {\footnotesize State Board}  & \hfil {\footnotesize 80.3\%} & \hfil {\footnotesize 2018}\\
+ \hfil {\footnotesize Secondary} & \hfil {\footnotesize State Board}  & \hfil {\footnotesize 94.3\%} & \hfil {\footnotesize 2016}\\
+ \hline
+\end{tabular}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Programmers Army}{Jan. 2021 -- Feb. 2021}
+      {Frontend developer Intern}{Pune, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Worked on registration i.e login/SignUp page. Used ReactJs for basic Layout and Material-UI and bootstrap for UX.}
+        \resumeItem{Used Firebase for user authentication and Redux for state management across all components.}
+        \resumeItem{Explored mongoose, a utility package which simplifies the use of mongoDB and provides an API for easier queries.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {HackerRank, Leetcode}{Aug 2018 -- Present}
+      {Problem Setting (self)}{Freelance}
+      \resumeItemListStart
+        \resumeItem{Prepared multiple competitive programming problems on these platforms based on math, dynamic programming and algorithms in general.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{In-Browser File Manager} $|$ \emph{ReactJS and Redux, Firebase} 
+          }{Apr. 2021 - Present}
+          \resumeItemListStart
+            \resumeItem{Motivation - There were no packages available in React to easily implement a file-manager. Those which were there were complex to use.}
+            \resumeItem{A File manager which is built using ReactJS. It gives you the capability of performing all CRUD operations on the files fully online.}
+            \resumeItem{Using Firebase RTDB for storing the files and folder structure.Used recursive react components for rendering and recursion for doing operations on the files and folder.}
+            \resumeItem{Used user authentication for independent file creation, react-routers for easy redirection, redux for user and file state management across all components.}
+            \resumeItem{Planning to make it a utility package for ReactJS.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+          
+          \resumeProjectHeading
+          {\textbf{Online Labs} $|$ \emph{ReactJS and Redux, Firebase, webrtc and websockets, NodeJS and various other packages}
+          }{Apr. 2021 - Present}
+          \resumeItemListStart
+            \resumeItem{Motivation - During the pandemic is has become difficult for teachers to take programming labs online. Online Lab would let you take these labs as if teachers were in college. It will be possible to give attention to each and every student.}
+            \resumeItem{Idea is to make an online lab system capable of creating rooms, one-on-one video conferencing, local and broadcast chat, online file-saving, and compilation, \textbf{collaborative editor}.}
+            \resumeItem{One-on-one video conferencing, chatting feature is implemented using webrtc and websockets. Collaborative editor can implemented using algorithm called CRDT or ODT.}
+            \resumeItem{Online file management service is self-built.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+         
+      \resumeProjectHeading
+          {\textbf{Algorithm visualizer} $|$ \emph{HTML, CSS, p5js}
+          \href{https://github.com/omega07/Algorithms-visualizer}{\raisebox{-0\height}\faGithub}
+          }{Oct. 2020 - Oct. 2020}
+          \resumeItemListStart
+            \resumeItem{p5js is a library which makes implementing canvas and manipulating objects easier.}
+            \resumeItem{Created an algorithms visualizer for people having a hard time to understand how an algorithm works.}
+            \resumeItem{Currently it has visualizers for the following algorithms : Convex Hull (using brute force method), minimum spanning tree(Prims), Binary Search Tree, Travelling Salesperson problem (brute force).}
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-------------ACHIEVEMENTS SECTION------------------
+
+\section{Achievements}
+    \resumeSubHeadingListStart
+        \resumeItemListStart
+            \resumeItem{CodeChef \href{https://www.codechef.com/users/shahayush2507}{\raisebox{-0.2\height}\faExternalLink} Rated \textbf{4}$\bigstar$ - Achieved \textbf{Global Rank 197} in CodeChef June Lunch-Time Div.1 2020 \href{https://www.codechef.com/rankings/LTIME85A?order=asc&search=shahayush2507&sortBy=rank}{\raisebox{-0.2\height}\faExternalLink}
+            }
+            \resumeItem{
+            Google Kick Start Round H 2020 - Achieved \textbf{Global Rank 928} among more than 10K participants.
+            }
+            \resumeItem{
+            \textbf{ACM ICPC 2019} - Ranked 130 in Preliminary Online Round (Kanpur) \href{https://icpc.global/ICPCID/GSHFQCIGSEAA}{\raisebox{-0.2\height}\faExternalLink}
+            }
+            \resumeItem{
+            Achieved \textbf{Rank 1} in EnCode1.0 held by KIIT IoT Labs 
+            }
+            \resumeItem{
+            Achieved \textbf{Rank 3} in the national competitive programming competition AlgoWar held by COEP CSI Student Chapter
+            }
+            \resumeItem{
+            Achieved \textbf{Rank 1} in Codeathon held by Manipal University of Jaipur (MUJ).
+            }
+            \resumeItem{
+            Solved more than 1500 competitive programming problems on various platforms like Codeforces, CodeChef, HackerRank, AtCoder and HackerEarth. \href{https://www.stopstalk.com/user/profile/omega07}{\raisebox{-0.2\height}\faExternalLink}
+            }
+            \resumeItem{
+            Amongst top 1500 in MH-CET (2018) with more than 2 lakh candidates.
+            }
+        \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, C++, Javascript, SQL and NoSQL DB, Bash} \\
+     \textbf{Tools}{: Firebase FireStore i.e RTDB, Firebase authentication, Developer tools } \\
+     \textbf{Technologies/Frameworks}{: NodeJS, ReactJS with the underlying technologies like Redux, Context API, Routers etc.} \\
+     \textbf{Additional}{: Data Structures, Algorithms, Math, } \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+    
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework and Certificates}
+
+ \resumeSubHeadingListStart
+        \resumeItemListStart
+            \resumeItem{
+            \textbf{Computer Science} - Advanced Data Structures, Algorithms, Database Management Systems, Object Oriented Programming, Discrete Structures, Graph Theory, Software Development.
+            }
+            \resumeItem{
+            Postman Student Expert and certificate of Algorithmic Toolbox by UC San Diego
+            }
+        \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+\end{document}
